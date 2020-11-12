@@ -1,3 +1,6 @@
+/*
+    Stack Data Strcuture in Javascirpt
+*/
 class Stack {
     constructor() {
         this.stack = [];
@@ -23,18 +26,21 @@ class Stack {
         return this.stack[this.stack.length -1];
     }
  
-    //
+    // Return 'true' if Stack is Empty
     isEmpty() {
         return this.stack.length == 0;
     }
+
     // Total items count 
     count() {
         return this.stack.length;
     }
+
     // Clear the stack
     clear() {
         this.stack = [];
     }
+    
     // Print items in the stack
     printStack() {
         let items = "";
